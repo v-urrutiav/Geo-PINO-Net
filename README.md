@@ -1,5 +1,5 @@
 # GeoPINONet
-
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 **GeoPINONet** is a geometry-aware **Physics-Informed Neural Operator (PINO)** for **3D structural mechanics**.  
 It predicts full-field **displacements** and **stresses** on parametric 3D geometries under two load cases:
 
