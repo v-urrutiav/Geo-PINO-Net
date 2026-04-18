@@ -400,5 +400,15 @@ If you use GeoPINONet in your research, please cite:
 
 ## License
 
-This repository is licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**.  
-You are free to use, modify, and redistribute the code, data, and figures — including for commercial purposes — provided that appropriate credit is given to the original authors and a link to this repository is included.
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License. 
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+You are free to:
+- **Share**: Copy and redistribute the material in any medium or format.
+- **Adapt**: Remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+- **Attribution**: You must give appropriate credit (citing the paper and this repository), provide a link to the license, and indicate if changes were made.
+
+See the [LICENSE](LICENSE) file for the full legal text.
