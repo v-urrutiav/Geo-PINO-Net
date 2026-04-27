@@ -1,0 +1,24 @@
+# GeoPINONet requirements
+# Tested with Python 3.11 on Windows.
+
+# ── Core numerical stack ─────────────────────────────────────────────────────
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+
+# ── Geometry and visualization ───────────────────────────────────────────────
+trimesh==4.11.5
+matplotlib==3.10.8
+
+# ── Optional utilities ───────────────────────────────────────────────────────
+openpyxl
+rtree
+
+# ── PyTorch ──────────────────────────────────────────────────────────────────
+# Install PyTorch separately according to your CUDA version:
+# https://pytorch.org/get-started/locally/
+#
+# Example used in this work for CUDA 12.6:
+# pip install torch==2.11.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+#
+# CPU-only users can install the CPU build following the official PyTorch instructions.

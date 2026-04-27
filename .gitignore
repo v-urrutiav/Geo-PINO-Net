@@ -1,0 +1,37 @@
+# === Python (Execution Junk) ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+*.log
+
+# === Autodesk Inventor (CAD Automation) ===
+# Inventor creates backup copies in these folders; we don't want them in GitHub.
+OldVersions/
+*.bak
+*.lck
+*.log
+# Temporary assembly/part files
+*.~*
+
+# === ANSYS / FEM (Large Result Files) ===
+# These files can be several GBs. We only keep the processed CSVs.
+*.rst
+*.err
+*.db
+*.lock
+*.full
+*.mode
+*.app
+*.page
+*_files/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDEs / Editors ===
+.vscode/
+.idea/

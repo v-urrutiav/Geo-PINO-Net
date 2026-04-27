@@ -1,0 +1,449 @@
+[METRICS] Computing final metrics...
+[OK] 1_compression.csv: 18588 nodes | ||u||_max: 1.0529 (norm)
+[OK] 1_lateral_bending.csv: 18588 nodes | ||u||_max: 1.0053 (norm)
+[METRICS] Geo 1 | COMP
+   SXX            : -1046516.9719
+   SYY            : -62812.8647
+   SZZ            : -157.3415
+   SXY            : 32727.1482
+   SYZ            : -9.8722
+   SXZ            : -197.3465
+   SXX_true       : -1059188.7197
+   SYY_true       : -62694.5272
+   SZZ_true       : -20475.3778
+   SXY_true       : 1394.3112
+   SYZ_true       : -0.0003
+   SXZ_true       : -0.0001
+[METRICS] Geo 1 | LAT
+   SXX            : -1393532.927
+   SYY            : 263206.9021
+   SZZ            : -377.5685
+   SXY            : -415613.4687
+   SYZ            : 6.3205
+   SXZ            : -253.2965
+   SXX_true       : -20366.3128
+   SYY_true       : -9462.1512
+   SZZ_true       : -51.4918
+   SXY_true       : -1019194.1585
+   SYZ_true       : 0.0008
+   SXZ_true       : -0.0001
+[OK] 2_compression.csv: 10998 nodes | ||u||_max: 1.0359 (norm)
+[OK] 2_lateral_bending.csv: 10998 nodes | ||u||_max: 1.0035 (norm)
+[METRICS] Geo 2 | COMP
+   SXX            : -2022411.34
+   SYY            : -185805.146
+   SZZ            : 256.1162
+   SXY            : 145470.9971
+   SYZ            : -24.0151
+   SXZ            : -301.3727
+   SXX_true       : -1761992.392
+   SYY_true       : -100556.4449
+   SZZ_true       : -33626.1837
+   SXY_true       : -1286.4157
+   SYZ_true       : -0.0003
+   SXZ_true       : 0.0001
+[METRICS] Geo 2 | LAT
+   SXX            : -3744570.7679
+   SYY            : -204806.911
+   SZZ            : -1623.6909
+   SXY            : -614860.8912
+   SYZ            : -16.4519
+   SXZ            : -225.0222
+   SXX_true       : 37155.0583
+   SYY_true       : 4668.5011
+   SZZ_true       : -2382.0312
+   SXY_true       : -1657257.3276
+   SYZ_true       : 0.0046
+   SXZ_true       : -0.0006
+[OK] 3_compression.csv: 12698 nodes | ||u||_max: 1.0427 (norm)
+[OK] 3_lateral_bending.csv: 12698 nodes | ||u||_max: 1.0009 (norm)
+[METRICS] Geo 3 | COMP
+   SXX            : -1305177.0611
+   SYY            : -62074.0286
+   SZZ            : -365.451
+   SXY            : 56545.8108
+   SYZ            : -9.5125
+   SXZ            : -183.5593
+   SXX_true       : -1248642.6534
+   SYY_true       : -86958.9884
+   SZZ_true       : -30456.0758
+   SXY_true       : 3992.6035
+   SYZ_true       : 0.0
+   SXZ_true       : -0.0001
+[METRICS] Geo 3 | LAT
+   SXX            : -1933970.2951
+   SYY            : 240124.9222
+   SZZ            : -611.0437
+   SXY            : -460570.9441
+   SYZ            : 69.5038
+   SXZ            : -52.317
+   SXX_true       : 719.0875
+   SYY_true       : -9554.3957
+   SZZ_true       : -982.4035
+   SXY_true       : -1190273.803
+   SYZ_true       : 0.0003
+   SXZ_true       : -0.0026
+[OK] 4_compression.csv: 13332 nodes | ||u||_max: 1.0447 (norm)
+[OK] 4_lateral_bending.csv: 13332 nodes | ||u||_max: 1.0013 (norm)
+[METRICS] Geo 4 | COMP
+   SXX            : -1163668.022
+   SYY            : -58009.4834
+   SZZ            : -383.0127
+   SXY            : 41912.551
+   SYZ            : -8.9966
+   SXZ            : -182.4813
+   SXX_true       : -1160318.0206
+   SYY_true       : -77081.8759
+   SZZ_true       : -29792.8219
+   SXY_true       : -6512.6551
+   SYZ_true       : -0.0002
+   SXZ_true       : -0.0013
+[METRICS] Geo 4 | LAT
+   SXX            : -1743596.1375
+   SYY            : 210170.7076
+   SZZ            : -734.9515
+   SXY            : -432595.8825
+   SYZ            : 72.8065
+   SXZ            : -140.7728
+   SXX_true       : 21589.9702
+   SYY_true       : -18708.6449
+   SZZ_true       : -636.4416
+   SXY_true       : -1118844.9513
+   SYZ_true       : 0.0013
+   SXZ_true       : -0.0014
+[OK] 5_compression.csv: 10329 nodes | ||u||_max: 1.0533 (norm)
+[OK] 5_lateral_bending.csv: 10329 nodes | ||u||_max: 1.0037 (norm)
+[METRICS] Geo 5 | COMP
+   SXX            : -1267472.6236
+   SYY            : -33515.4374
+   SZZ            : -284.9275
+   SXY            : -51418.417
+   SYZ            : 5.2645
+   SXZ            : -214.8233
+   SXX_true       : -1259596.4842
+   SYY_true       : -136806.9837
+   SZZ_true       : -30147.9455
+   SXY_true       : -16628.3621
+   SYZ_true       : 0.0001
+   SXZ_true       : -0.0001
+[METRICS] Geo 5 | LAT
+   SXX            : -1760613.3656
+   SYY            : 395841.3097
+   SZZ            : -193.8735
+   SXY            : -558951.204
+   SYZ            : 5.3571
+   SXZ            : -227.7817
+   SXX_true       : -44685.1032
+   SYY_true       : -76242.0806
+   SZZ_true       : -629.5192
+   SXY_true       : -1255241.1807
+   SYZ_true       : -0.0002
+   SXZ_true       : 0.0001
+[OK] 6_compression.csv: 18278 nodes | ||u||_max: 1.0577 (norm)
+[OK] 6_lateral_bending.csv: 18278 nodes | ||u||_max: 1.0021 (norm)
+[METRICS] Geo 6 | COMP
+   SXX            : -776272.4352
+   SYY            : -30525.6221
+   SZZ            : -109.9002
+   SXY            : -3736.5561
+   SYZ            : 5.8937
+   SXZ            : -68.4515
+   SXX_true       : -821517.2148
+   SYY_true       : -58008.8207
+   SZZ_true       : -21020.9473
+   SXY_true       : -8650.363
+   SYZ_true       : 0.0003
+   SXZ_true       : 0.0001
+[METRICS] Geo 6 | LAT
+   SXX            : -1090393.2885
+   SYY            : 246901.7657
+   SZZ            : -485.3974
+   SXY            : -340304.2347
+   SYZ            : 64.1751
+   SXZ            : -68.9251
+   SXX_true       : -26329.9729
+   SYY_true       : -14649.9008
+   SZZ_true       : -516.0325
+   SXY_true       : -780534.4019
+   SYZ_true       : -0.0001
+   SXZ_true       : -0.0012
+[OK] 7_compression.csv: 14775 nodes | ||u||_max: 1.0559 (norm)
+[OK] 7_lateral_bending.csv: 14775 nodes | ||u||_max: 1.0018 (norm)
+[METRICS] Geo 7 | COMP
+   SXX            : -1055885.5896
+   SYY            : -31316.4514
+   SZZ            : -327.1362
+   SXY            : -31443.3819
+   SYZ            : 5.8627
+   SXZ            : -251.9866
+   SXX_true       : -1049245.3551
+   SYY_true       : -94048.9292
+   SZZ_true       : -23831.2094
+   SXY_true       : -12569.1707
+   SYZ_true       : 0.0001
+   SXZ_true       : -0.001
+[METRICS] Geo 7 | LAT
+   SXX            : -1369243.1197
+   SYY            : 409948.0019
+   SZZ            : -107.0662
+   SXY            : -453800.9536
+   SYZ            : -2.1161
+   SXZ            : -194.6045
+   SXX_true       : -21733.8002
+   SYY_true       : 5737.3055
+   SZZ_true       : 201.9433
+   SXY_true       : -990744.2247
+   SYZ_true       : -0.0003
+   SXZ_true       : 0.0014
+[OK] 8_compression.csv: 10876 nodes | ||u||_max: 1.0424 (norm)
+[OK] 8_lateral_bending.csv: 10876 nodes | ||u||_max: 1.0022 (norm)
+[METRICS] Geo 8 | COMP
+   SXX            : -1379484.3958
+   SYY            : -56020.2665
+   SZZ            : -591.9846
+   SXY            : 62122.4385
+   SYZ            : -5.6986
+   SXZ            : 46.2864
+   SXX_true       : -1269974.1831
+   SYY_true       : -73708.6945
+   SZZ_true       : -35267.0494
+   SXY_true       : 3561.8842
+   SYZ_true       : 0.0002
+   SXZ_true       : -0.0014
+[METRICS] Geo 8 | LAT
+   SXX            : -2063951.0754
+   SYY            : 188116.6864
+   SZZ            : -111.8626
+   SXY            : -507878.8771
+   SYZ            : 200.4863
+   SXZ            : 307.8832
+   SXX_true       : 26234.4097
+   SYY_true       : -17038.7851
+   SZZ_true       : -2088.9324
+   SXY_true       : -1203771.2385
+   SYZ_true       : -0.0009
+   SXZ_true       : -0.0006
+[OK] 9_compression.csv: 10021 nodes | ||u||_max: 1.0358 (norm)
+[OK] 9_lateral_bending.csv: 10021 nodes | ||u||_max: 1.0022 (norm)
+[METRICS] Geo 9 | COMP
+   SXX            : -2233601.1003
+   SYY            : -199914.362
+   SZZ            : 288.3919
+   SXY            : 194677.8456
+   SYZ            : -29.2713
+   SXZ            : -333.7862
+   SXX_true       : -1943216.8445
+   SYY_true       : -96130.9673
+   SZZ_true       : -37395.4641
+   SXY_true       : 2750.6242
+   SYZ_true       : -0.0003
+   SXZ_true       : -0.0003
+[METRICS] Geo 9 | LAT
+   SXX            : -4200706.7397
+   SYY            : -155240.9056
+   SZZ            : -1002.8704
+   SXY            : -782530.6585
+   SYZ            : -11.5765
+   SXZ            : -119.5602
+   SXX_true       : 240518.6624
+   SYY_true       : 3561.7149
+   SZZ_true       : -2358.2219
+   SXY_true       : -1815330.8399
+   SYZ_true       : -0.0045
+   SXZ_true       : 0.004
+[OK] 10_compression.csv: 12959 nodes | ||u||_max: 1.0534 (norm)
+[OK] 10_lateral_bending.csv: 12959 nodes | ||u||_max: 1.0010 (norm)
+[METRICS] Geo 10 | COMP
+   SXX            : -1443568.8611
+   SYY            : -49618.3532
+   SZZ            : -147.2387
+   SXY            : 25067.7935
+   SYZ            : -3.0992
+   SXZ            : -314.1592
+   SXX_true       : -1405987.9472
+   SYY_true       : -93160.18
+   SZZ_true       : -29389.4636
+   SXY_true       : -13864.2102
+   SYZ_true       : 0.0
+   SXZ_true       : 0.0005
+[METRICS] Geo 10 | LAT
+   SXX            : -2007604.1316
+   SYY            : 354453.5026
+   SZZ            : -459.996
+   SXY            : -613116.9298
+   SYZ            : -9.367
+   SXZ            : -416.7661
+   SXX_true       : -99290.4664
+   SYY_true       : 4183.2201
+   SZZ_true       : -504.0116
+   SXY_true       : -1347676.1413
+   SYZ_true       : -0.0033
+   SXZ_true       : -0.0026
+[OK] 11_compression.csv: 18532 nodes | ||u||_max: 1.0607 (norm)
+[OK] 11_lateral_bending.csv: 18532 nodes | ||u||_max: 1.0014 (norm)
+[METRICS] Geo 11 | COMP
+   SXX            : -792092.6207
+   SYY            : -32227.4209
+   SZZ            : -201.1183
+   SXY            : 8446.143
+   SYZ            : 9.9535
+   SXZ            : -28.4411
+   SXX_true       : -802863.7236
+   SYY_true       : -75240.9055
+   SZZ_true       : -23202.4462
+   SXY_true       : 1174.7472
+   SYZ_true       : 0.0004
+   SXZ_true       : 0.0004
+[METRICS] Geo 11 | LAT
+   SXX            : -1108849.9278
+   SYY            : 267420.6428
+   SZZ            : -465.2374
+   SXY            : -330797.9148
+   SYZ            : 98.7514
+   SXZ            : 33.419
+   SXX_true       : -19587.4017
+   SYY_true       : -6517.3747
+   SZZ_true       : -873.5993
+   SXY_true       : -775395.2561
+   SYZ_true       : -0.0004
+   SXZ_true       : 0.0009
+[OK] 12_compression.csv: 18997 nodes | ||u||_max: 1.0508 (norm)
+[OK] 12_lateral_bending.csv: 18997 nodes | ||u||_max: 1.0053 (norm)
+[METRICS] Geo 12 | COMP
+   SXX            : -1142178.7757
+   SYY            : -82908.1219
+   SZZ            : -349.2395
+   SXY            : 66132.2225
+   SYZ            : -16.5308
+   SXZ            : -96.2619
+   SXX_true       : -1048493.8226
+   SYY_true       : -65207.7963
+   SZZ_true       : -23908.3983
+   SXY_true       : 13264.3308
+   SYZ_true       : -0.0005
+   SXZ_true       : -0.0007
+[METRICS] Geo 12 | LAT
+   SXX            : -1637020.4215
+   SYY            : 139232.5293
+   SZZ            : -1596.813
+   SXY            : -368108.7574
+   SYZ            : 85.549
+   SXZ            : 6.2987
+   SXX_true       : 83691.0987
+   SYY_true       : -13371.3339
+   SZZ_true       : -446.4789
+   SXY_true       : -966585.2651
+   SYZ_true       : 0.0024
+   SXZ_true       : -0.0009
+[OK] 13_compression.csv: 19795 nodes | ||u||_max: 1.0536 (norm)
+[OK] 13_lateral_bending.csv: 19795 nodes | ||u||_max: 1.0059 (norm)
+[METRICS] Geo 13 | COMP
+   SXX            : -1058243.4994
+   SYY            : -68681.5185
+   SZZ            : -393.3005
+   SXY            : 49154.6273
+   SYZ            : -14.3663
+   SXZ            : -66.1162
+   SXX_true       : -996181.3239
+   SYY_true       : -54707.0598
+   SZZ_true       : -22965.9045
+   SXY_true       : 7258.741
+   SYZ_true       : 0.0008
+   SXZ_true       : -0.0004
+[METRICS] Geo 13 | LAT
+   SXX            : -1493653.8477
+   SYY            : 135043.0131
+   SZZ            : -1621.6722
+   SXY            : -370387.8762
+   SYZ            : 84.3907
+   SXZ            : -354.8917
+   SXX_true       : 37748.9764
+   SYY_true       : -4938.7903
+   SZZ_true       : -2358.916
+   SXY_true       : -937423.0349
+   SYZ_true       : -0.0012
+   SXZ_true       : -0.002
+[OK] 14_compression.csv: 9573 nodes | ||u||_max: 1.0395 (norm)
+[OK] 14_lateral_bending.csv: 9573 nodes | ||u||_max: 1.0025 (norm)
+[METRICS] Geo 14 | COMP
+   SXX            : -1525043.8668
+   SYY            : -67448.0251
+   SZZ            : -494.4749
+   SXY            : 68578.0949
+   SYZ            : -14.8732
+   SXZ            : 191.2142
+   SXX_true       : -1334428.4412
+   SYY_true       : -82490.4307
+   SZZ_true       : -40411.5896
+   SXY_true       : -6666.5002
+   SYZ_true       : 0.0013
+   SXZ_true       : -0.0002
+[METRICS] Geo 14 | LAT
+   SXX            : -2413978.1034
+   SYY            : 101811.7889
+   SZZ            : 334.9956
+   SXY            : -520641.0214
+   SYZ            : 290.5519
+   SXZ            : 305.2481
+   SXX_true       : 21951.0549
+   SYY_true       : -16161.6885
+   SZZ_true       : 248.5799
+   SXY_true       : -1290280.7038
+   SYZ_true       : 0.0072
+   SXZ_true       : 0.003
+[OK] 15_compression.csv: 13269 nodes | ||u||_max: 1.0425 (norm)
+[OK] 15_lateral_bending.csv: 13269 nodes | ||u||_max: 1.0058 (norm)
+[METRICS] Geo 15 | COMP
+   SXX            : -1833885.2774
+   SYY            : -147033.3117
+   SZZ            : 149.5844
+   SXY            : 114921.8574
+   SYZ            : -15.1715
+   SXZ            : -298.5738
+   SXX_true       : -1638668.5951
+   SYY_true       : -86129.7908
+   SZZ_true       : -28515.8221
+   SXY_true       : 6548.9129
+   SYZ_true       : -0.0004
+   SXZ_true       : -0.0001
+[METRICS] Geo 15 | LAT
+   SXX            : -2984228.7458
+   SYY            : -71930.3841
+   SZZ            : -1592.0792
+   SXY            : -599251.9609
+   SYZ            : -13.3742
+   SXZ            : 78.0347
+   SXX_true       : 110989.3516
+   SYY_true       : -13429.6077
+   SZZ_true       : 824.8935
+   SXY_true       : -1564493.2248
+   SYZ_true       : 0.0003
+   SXZ_true       : 0.0014
+[OK] 16_compression.csv: 14655 nodes | ||u||_max: 1.0456 (norm)
+[OK] 16_lateral_bending.csv: 14655 nodes | ||u||_max: 1.0059 (norm)
+[METRICS] Geo 16 | COMP
+   SXX            : -1277333.2149
+   SYY            : -84128.4791
+   SZZ            : -142.7733
+   SXY            : 45348.8805
+   SYZ            : -13.4455
+   SXZ            : -238.2484
+   SXX_true       : -1207885.467
+   SYY_true       : -54370.7513
+   SZZ_true       : -22473.2135
+   SXY_true       : 2981.8353
+   SYZ_true       : -0.0004
+   SXZ_true       : 0.0001
+[METRICS] Geo 16 | LAT
+   SXX            : -1790462.0198
+   SYY            : 113248.3224
+   SZZ            : -334.355
+   SXY            : -438159.8503
+   SYZ            : 6.8523
+   SXZ            : 74.0414
+   SXX_true       : -1925.773
+   SYY_true       : -14263.8894
+   SZZ_true       : -941.6568
+   SXY_true       : -1168394.1432
+   SYZ_true       : 0.0008
+   SXZ_true       : -0.0001

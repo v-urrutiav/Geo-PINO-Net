@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use GeoPINONet or the associated datasets, please cite this Zenodo archive and the accompanying manuscript."
+title: "GeoPINONet datasets, trained models, and source code for geometry-conditioned 3D elasticity"
+version: "1.0.0"
+doi: "10.5281/zenodo.19816527"
+date-released: "2026-04-27"
+url: "https://doi.org/10.5281/zenodo.19816527"
+repository-code: "https://github.com/v-urrutiav/GeoPINONet"
+
+authors:
+  - family-names: "Urrutia Valdés"
+    given-names: "Vicente"
+    orcid: "https://orcid.org/0009-0001-6349-5747"
+    affiliation: "Pontificia Universidad Católica de Valparaí­so"
+  - family-names: "La Fé-Perdomo"
+    given-names: "Iván"
+    orcid: "https://orcid.org/0000-0002-4042-1534"
+    affiliation: "Pontificia Universidad Católica de Valparaíso"
+
+keywords:
+  - "physics-informed neural operator"
+  - "linear elasticity"
+  - "finite element method"
+  - "3D structural mechanics"
+  - "PointNet"
+  - "Fourier features"
+  - "stress concentration"
+  - "surrogate modeling"
+
+abstract: >-
+  GeoPINONet is a geometry-conditioned physics-informed neural operator for
+  full-field displacement and stress prediction over variable 3D geometries in
+  the linear-elastic regime. This archive contains the source-code snapshot,
+  trained model weights, finite-element datasets, and result files associated
+  with the GeoPINONet manuscript.
+
+preferred-citation:
+  type: generic
+  title: "GeoPINONet datasets, trained models, and source code for geometry-conditioned 3D elasticity"
+  authors:
+    - family-names: "Urrutia Valdés"
+      given-names: "Vicente"
+      orcid: "https://orcid.org/0009-0001-6349-5747"
+      affiliation: "Pontificia Universidad Católica de Valparaíso"
+    - family-names: "La Fé-Perdomo"
+      given-names: "Iván"
+      orcid: "https://orcid.org/0000-0002-4042-1534"
+      affiliation: "Pontificia Universidad Católica de Valparaíso"
+  year: 2026
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.19816527"
+  url: "https://doi.org/10.5281/zenodo.19816527"

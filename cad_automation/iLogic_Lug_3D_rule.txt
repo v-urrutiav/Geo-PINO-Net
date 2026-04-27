@@ -1,0 +1,78 @@
+Sub Main()
+
+    ' ============================================================
+    ' CONFIG
+    ' ============================================================
+    Dim csvPath As String
+    csvPath = "C:\Users\\VicenteRealValpo\\Documents\\GitHub\\Geo-PINO-Net\\data_generation\\Lug_3D\\lug_train_64.csv"
+
+    ' ============================================================
+    ' READ i FROM USER PARAMETER
+    ' ============================================================
+    Dim rowIndex As Integer
+    rowIndex = CInt(Parameter("i"))
+
+    ' ============================================================
+    ' READ CSV
+    ' ============================================================
+    If Not System.IO.File.Exists(csvPath) Then
+        MessageBox.Show("CSV file not found: " & csvPath)
+        Return
+    End If
+
+    Dim lines() As String
+    lines = System.IO.File.ReadAllLines(csvPath)
+
+    If lines.Length < 2 Then
+        MessageBox.Show("CSV contains no data.")
+        Return
+    End If
+
+    ' rowIndex = 1 means first data row after the header
+    If rowIndex < 1 Or rowIndex > lines.Length - 1 Then
+        MessageBox.Show("Index out of range. i = " & rowIndex)
+        Return
+    End If
+
+    Dim values() As String
+    values = Split(lines(rowIndex), ",")
+
+    If UBound(values) < 5 Then
+        MessageBox.Show("Row " & rowIndex & " does not have enough columns.")
+        Return
+    End If
+
+    ' ============================================================
+    ' CSV COLUMNS
+    ' 0 = W_over_D
+    ' 1 = e_over_D
+    ' 2 = t_over_D
+    ' 3 = W_mm
+    ' 4 = e_mm
+    ' 5 = t_mm
+    ' ============================================================
+
+    Dim W_txt As String
+    Dim e_txt As String
+    Dim t_txt As String
+
+    W_txt = Replace(Trim(values(3)), ".", ",")
+    e_txt = Replace(Trim(values(4)), ".", ",")
+    t_txt = Replace(Trim(values(5)), ".", ",")
+
+    ' ============================================================
+    ' LOAD PARAMETERS
+    ' ============================================================
+    Parameter.Param("W").Expression = W_txt & " mm"
+    Parameter.Param("e").Expression = e_txt & " mm"
+    Parameter.Param("t").Expression = t_txt & " mm"
+
+    InventorVb.DocumentUpdate()
+    ThisApplication.ActiveView.Update()
+
+    ' ============================================================
+    ' ADVANCE STATE: i = i + 1
+    ' ============================================================
+    Parameter("i") = rowIndex + 1
+
+End Sub

@@ -1,6 +1,6 @@
 Creative Commons Attribution 4.0 International Public License
 
-Copyright (c) 2026 Vicente Urrutia V.
+Copyright (c) 2026 Vicente Urrutia Valdés and Iván La Fé-Perdomo.
 
 Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship...
 
@@ -400,5 +400,7 @@ public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
 How to attribute this work:
-Urrutia, V. (2026). GeoPINONet: A Physics-Informed Neural Operator for 3D Structural Mechanics. 
-GitHub Repository: https://github.com/v-urrutiav/Geo-PINO-Net
+
+Urrutia Valdés, V., & La Fé-Perdomo, I. (2026). GeoPINONet: A Geometry-Conditioned Physics-Informed Neural Operator for 3D Elasticity with Real-Time Inference. Zenodo. https://doi.org/10.5281/zenodo.19816527
+
+GitHub Repository: https://github.com/v-urrutiav/GeoPINONet
