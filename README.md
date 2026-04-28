@@ -415,7 +415,7 @@ The `data_generation/` folder contains scripts and CSV files used to generate th
 
 ### Sampling Strategy
 
-- A **64-sample master dataset** is generated using **Latin Hypercube Sampling (LHS)** with centered-discrepancy optimization.
+- A **64-sample master dataset** is generated using **Latin Hypercube Sampling (LHS)**.
 - Nested subsets of size 4, 8, 16, and 32 are extracted using **Farthest Point Sampling (FPS)**, so each smaller subset is strictly contained in the larger ones.
 - This design supports reproducible scaling studies.
 
