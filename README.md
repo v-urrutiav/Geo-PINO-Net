@@ -1,6 +1,6 @@
 # GeoPINONet
 
-**Geometry-Conditioned Physics-Informed Neural Operator for 3D Elasticity with Real-Time Inference**
+**Sparse-Supervised Physics-Informed Operator Learning for Full-Field Prediction in Variable 3D Elastic Domains**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
@@ -47,7 +47,7 @@ This repository accompanies the manuscript:
 - **Dual-branch architecture** with independent branches per load case (axial compression / lateral bending)
 - **Physics-informed training** with PDE equilibrium, constitutive (Hooke), and boundary-condition losses
 - **Thickness-mode parameterization** for out-of-plane field reconstruction
-- **ActiveCSV adaptive sampling** focused on Von Mises stress concentration hotspots
+- **ActiveCSV adaptive sampling** focused on von Mises stress concentration hotspots
 - **Curriculum training** schedule from data-only fitting to full physics enforcement
 - **Homoscedastic uncertainty** weighting for automatic loss balancing (`log_vars`)
 - **Nested dataset subsets** (4 / 8 / 16 / 32 / 64) for reproducible scaling studies
@@ -109,7 +109,7 @@ All major loss terms are weighted automatically using learnable **homoscedastic 
 
 ### Adaptive Supervision
 
-The `ActiveCSV` sampler (implemented in `src/active_sampler.py`) refreshes the supervised subset during training and increases sampling probability near **Von Mises stress concentration regions**.
+The `ActiveCSV` sampler (implemented in `src/active_sampler.py`) refreshes the supervised subset during training and increases sampling probability near **von Mises stress concentration regions**.
 
 ---
 
@@ -284,7 +284,7 @@ python trained_models/download_models.py
 
 ## Real Inference Demo
 
-A real inference demo is provided for the 3D lug geometry. It loads the trained checkpoint, samples surface points, predicts the canonical load responses, applies linear superposition, computes Von Mises stress, and writes a PNG visualization.
+A real inference demo is provided for the 3D lug geometry. It loads the trained checkpoint, samples surface points, predicts the canonical load responses, applies linear superposition, computes von Mises stress, and writes a PNG visualization.
 
 Run with a single load case:
 
@@ -391,7 +391,7 @@ Reproduced tables are written to:
 results/reproduced_tables/
 ```
 
-This includes final-model tables (training and validation, for both geometry families) and the compact ablation table.
+This includes final-model tables (training and validation, for both geometry families), the compact ablation table, and the compact comparison table between full 3D von Mises and in-plane von Mises metrics.
 
 ---
 
