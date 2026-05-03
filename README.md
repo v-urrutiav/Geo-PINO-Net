@@ -468,7 +468,7 @@ If you use GeoPINONet in your research, please cite the manuscript and the Zenod
 
 ```bibtex
 @misc{urrutia2026geopinonet_archive,
-  author       = {Urrutia Vald{\'e}s, Vicente and La F{\'e}-Perdomo, Iv{\'a}n},
+  author       = {Urrutia Vald{\'e}s, Vicente, La F{\'e}-Perdomo, Iv{\'a}n and Rodríguez Soto, Angel},
   title        = {GeoPINONet datasets, trained models, and source code for geometry-conditioned 3D elasticity},
   year         = {2026},
   publisher    = {Zenodo},
@@ -488,6 +488,9 @@ A `CITATION.cff` file is also provided in the root of the repository for automat
 
 - **Iván La Fé-Perdomo**
   ORCID: [0000-0002-4042-1534](https://orcid.org/0000-0002-4042-1534)
+
+- **Angel Rodríguez Soto**
+  ORCID: [0000-0002-5512-9288](https://orcid.org/0000-0002-5512-9288)
 
 *Pontificia Universidad Católica de Valparaíso, Chile*
 
